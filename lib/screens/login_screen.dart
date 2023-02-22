@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
             TextField(
               onChanged: (value) {
                 //Do something with the user input.
-              },
+              }, 
               decoration: kTextFieldDecoration.copyWith(
                 hintText: 'Enter your password',
               ),
